@@ -3,7 +3,7 @@ using ConsoleGame;
 using Microsoft.Extensions.DependencyInjection;
 
 var serviceProider = new ServiceCollection()
-    .AddSingleton<IPrinter, Printer>()
+    .AddSingleton<IPrinter, PrinterCollored>()
     .BuildServiceProvider();
 
 Processor processors = new Processor(serviceProider.GetService<IPrinter>());
