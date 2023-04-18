@@ -1,5 +1,4 @@
 # Snake
 Console Game Snake
 
-[Demo]
-(https://github.com/AndriiGit/Snake/blob/main/Snake.gif)
+<video src='https://github.com/AndriiGit/Snake/blob/main/Snake.gif' width=380/>
